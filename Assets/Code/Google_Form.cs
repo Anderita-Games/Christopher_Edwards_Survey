@@ -13,9 +13,9 @@ public class Google_Form : MonoBehaviour {
 	string BASE_URL = "https://docs.google.com/forms/d/1SJAU88_Pe3-pv0eizsIFp63QdzlZg12GlNj2rWbWzVc/formResponse";
 
 	public void Start () {
-		if (PlayerPrefs.GetString("Survey Taken") == "TRUE") { //Prevents retaking the survey
+		/*if (PlayerPrefs.GetString("Survey Taken") == "TRUE") { //Prevents retaking the survey
 			SceneManager.LoadScene("Contact Card");
-		}
+		}*/
 		Questions = new string[] { //APPLICATION SECTION
 			//YES OR NO
 			"Did you have breakfast?",

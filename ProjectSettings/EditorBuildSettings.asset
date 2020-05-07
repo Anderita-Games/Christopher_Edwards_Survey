@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Data Collection.unity
+    path: Assets/Scenes/Data Collection.unity
     guid: 3d3381d3926a1024d88878614113aac9
   - enabled: 1
-    path: Assets/Contact Card.unity
+    path: Assets/Scenes/Contact Card.unity
     guid: 5d18b5ececd70134f9a1f8fa3ef493c0
+  - enabled: 1
+    path: Assets/Scenes/Giveback.unity
+    guid: 540ea29efd1e2b645900425c952b76f2
+  - enabled: 1
+    path: Assets/Scenes/Content.unity
+    guid: fd4a32df1a79fde43a3cca1d7e961fc4
   m_configObjects: {}
